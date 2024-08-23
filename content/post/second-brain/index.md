@@ -1,138 +1,54 @@
 ---
-title: 🧠 Sharpen your thinking with a second brain
-summary: Create a personal knowledge base and share your knowledge with your peers.
-date: 2023-10-26
+title: 🧠 Github и управление версиями
+summary: Мои мысли на тему гитхаба, а также мой опыт с ним.
+date: 2024-08-23
 authors:
   - admin
 tags:
   - Second Brain
   - Markdown
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: 'Картинку оставил [**Unsplash**](https://unsplash.com)'
 ---
 
-Create a personal knowledge base and share your knowledge with your peers.
+Github - это замечательная штука для программистов и продвинутых потребителей! Для обычного пользователя это лишь ещё один сайт для скачки оттуда нишевых программ для собственного использования, но для программистов этот сайт - второе пришествие Христа. 
 
-Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.
+Благодаря умным разработчикам этого вебсайта, программисты получили возможность удобно контроллировать версии своего кода, а также благодаря этой системе появилась возможность нескольким людям над одним кодом!
 
-Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.
+К сожалению, я всё ещё очень плохо ориентируюсь в этом сервисе, а потому мне трудно рассказать вам что-то с уверенностью, что я не распространяю дизинформацию, но работа над этим проектом помогает мне по-тихоньку освоить это чудо-юдо.
 
-Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or via a private GitHub repository and password-protected site just for yourself.
+## А тут типа красивые схемы
 
-## Mindmaps
+Эти штуки лежали в изначальном файле и они, очевидно, предназначены для того, чтобы я с ними поигрался и ознакомился с их возможностями. Так давайте же приступим!
 
-Hugo Blox supports a Markdown extension for mindmaps.
-
-With this open format, can even edit your mindmaps in other popular tools such as Obsidian.
-
-Simply insert a Markdown code block labelled as `markmap` and optionally set the height of the mindmap as shown in the example below.
-
-Mindmaps can be created by simply writing the items as a Markdown list within the `markmap` code block, indenting each item to create as many sub-levels as you need:
-
+Вот этот код:
 <div class="highlight">
 <pre class="chroma">
 <code>
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
+```markmap {height="300px"}
+- Мои Проблемы
+  - Задолженность по ОС
+  - Работа с новыми версиями всего
+  - Высокий порог вхождения
+  - "Голый" Линукс Федора Свэй
+  - На Федора 40 не вышли шрифты Sans
 ```
 </code>
 </pre>
 </div>
 
-renders as
+выдаёт нам это
 
 ```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
+- Мои Проблемы
+  - Задолженность по ОС
+  - Работа с новыми версиями всего
+  - Высокий порог вхождения
+  - "Голый" Линукс Федора Свэй
+  - На Федора 40 не вышли шрифты Sans
 ```
 
-Anh here's a more advanced mindmap with formatting, code blocks, and math:
+Всё, я наигрался.
 
-<div class="highlight">
-<pre class="chroma">
-<code>
-```markmap
-- Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    -
-      ```js
-      console.log('hello');
-      console.log('code block');
-      ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
-</code>
-</pre>
-</div>
-
-renders as
-
-```markmap
-- Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    -
-      ```js
-      console.log('hello');
-      console.log('code block');
-      ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
-
-## Highlighting
-
-<mark>Highlight</mark> important text with `mark`:
-
-```html
-<mark>Highlighted text</mark>
-```
-
-## Callouts
-
-Use [callouts](https://docs.hugoblox.com/reference/markdown/#callouts) (aka _asides_, _hints_, or _alerts_) to draw attention to notes, tips, and warnings.
-
-By wrapping a paragraph in `{{%/* callout note */%}} ... {{%/* /callout */%}}`, it will render as an aside.
-
-```markdown
-{{%/* callout note */%}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{%/* /callout */%}}
-```
-
-renders as
-
-{{% callout note %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /callout %}}
-
-Or use the `warning` callout type so your readers don't miss critical details:
-
-{{% callout warning %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /callout %}}
-
-## Did you find this page helpful? Consider sharing it 🙌
+## Выводы
+Тут ещё много всякого было для изучения, но время не резиновое, а мне ещё 4 этапа доделать нужно.
