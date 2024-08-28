@@ -1,7 +1,7 @@
 ---
 title: 🫠️Языки программирования
 summary: Пост не о чём попало, а о чём сказали.
-date: 2024-08-28
+date: 2024-08-30
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
