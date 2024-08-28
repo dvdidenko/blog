@@ -35,8 +35,36 @@ profiles:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/dvdidenko
+    
+  - icon: academic-cap
+    url: 'https://elibrary.ru/defaultx.asp'
 
+    
+  - icon: academic-cap
+    url: 'https://scholar.google.com/citations?view_op=list_works&hl=ru&user=UcglflsAAAAJ'
 
+    
+  - icon: academic-cap
+    url: 'https://orcid.org/0009-0001-0869-0961'
+
+    
+  - icon: academic-cap
+    url: 'https://www.mendeley.com/search/'
+
+    
+  - icon: academic-cap
+    url: 'https://www.researchgate.net/'
+
+    
+  - icon: academic-cap
+    url: 'https://independent.academia.edu/%D0%94%D0%B8%D0%B4%D0%B5%D0%BD%D0%BA%D0%BE%D0%94%D0%B8%D0%BC%D0%B0
+'
+    
+  - icon: academic-cap
+    url: 'https://arxiv.org/'
+
+    
+    
 interests:
   - Surviving University
   - Learning Computer Science
