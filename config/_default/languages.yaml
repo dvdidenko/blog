@@ -1,10 +1,14 @@
 en:
    languageCode: en-us
+   languageName: "English"
    contentDir: content/en
+   weight: 1
    
 ru:
    languageCode: "ru-ru"
-   contentDir: "content/ru" 
+   languageName: "Русский"
+   contentDir: "content/ru"
+   weight: 2
    menu:
      main:
        - name: Обо мне
@@ -28,6 +32,4 @@ ru:
        - name: Биография
          url: '#biography'
          weight: 60
-         
-  
    
